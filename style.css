@@ -5,12 +5,48 @@
 }
 
 body {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 100vw;
     height: 100vh;
 }
 
+.head {
+    max-width: 100%;
+    border: 3px solid black;
+}
+
+.head img {
+    width: 100%;
+    
+}
+
 .todo {
+    position: relative;
+    bottom: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
+    border: 3px solid red;
+}
+
+.todo__champ h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.todo__champ__form {
+    width: 100%;
+    height: auto;
+    background-color: yellowgreen;
+}
+
+input {
+    width: 100%;
+    height: auto;
 }
